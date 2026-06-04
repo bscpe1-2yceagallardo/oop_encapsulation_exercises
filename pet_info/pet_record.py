@@ -11,3 +11,6 @@ class Pet:
     # SETTERS
     def set_name(self, name):
         self.__name = name
+
+    def set_name(self, animal_type):
+        self.__animal_type = animal_type
