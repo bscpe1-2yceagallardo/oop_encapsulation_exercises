@@ -17,3 +17,6 @@ class Fan:
     # GETTERS
     def get_rotation_speed(self):
         return self.__rotation_speed
+
+    def get_blade_radius(self):
+        return self.__blade_radius
