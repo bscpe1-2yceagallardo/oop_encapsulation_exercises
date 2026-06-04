@@ -13,3 +13,7 @@ class Fan:
              self.__target_temperature = target_temperature
              self.__is_oscillating = is_oscillating
              self.__active_timer_minutes = active_timer_minutes
+
+    # GETTERS
+    def get_rotation_speed(self):
+        return self.__rotation_speed
