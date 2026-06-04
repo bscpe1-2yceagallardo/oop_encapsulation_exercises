@@ -45,3 +45,6 @@ class Pet:
 
     def set_breed(self):
         return self.__breed
+
+    def set_color(self):
+        return self.__color
