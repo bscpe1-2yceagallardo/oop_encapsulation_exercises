@@ -20,3 +20,6 @@ class Fan:
 
     def get_blade_radius(self):
         return self.__blade_radius
+
+    def get_chassis_colors(self):
+        return self.__chassis_colors
