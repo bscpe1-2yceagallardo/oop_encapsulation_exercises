@@ -26,3 +26,13 @@ class Car:
     def brake(self):
         self.__speed = max(0,self.__speed - 5 )
         self.__fuel =  max(0.0, self.__fuel - 0.2)
+
+    def get_gear(self) -> str:
+        if self.__speed == 0:
+            return "P"
+        elif self.__speed <= 10:
+            return "1st"
+        elif self.__speed <= 20:
+            return "2nd"
+        else:
+            return "3rd"
