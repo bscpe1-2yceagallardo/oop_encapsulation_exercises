@@ -1,3 +1,4 @@
+import time
 from car_info import Car
 
 def display_dashboard(car: Car, action: str):
@@ -30,4 +31,13 @@ def main():
 
     my_car = Car(year, make)
     print(f"\nSuccessfully spwaned your {my_car}!")
-    timne.sleep(1)
+    time.sleep(1)
+
+    # Acceleration phase
+    print("\nPUSHING THE GAS PEDAL...")
+    for i in range(5):
+        time.sleep(0.5)
+        my_car.accelerates()
+        display_dashboard(my_car, "Accelerating")
+
+    time.sleep(1.5)
