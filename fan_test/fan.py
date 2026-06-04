@@ -29,3 +29,6 @@ class Fan:
 
     def get_target_temperature(self):
         return self.__target_temperature
+
+    def get_is_oscillating(self):
+        return self.__is_oscillating
