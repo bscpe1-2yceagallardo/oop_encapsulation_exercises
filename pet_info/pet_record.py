@@ -32,3 +32,7 @@ class Pet:
             self.__vaccinated = "Complete"
         else:
             self.__vaccinated = "Not Complete"
+
+    # GETTERS
+    def set_name(self, name):
+        return self.__name
