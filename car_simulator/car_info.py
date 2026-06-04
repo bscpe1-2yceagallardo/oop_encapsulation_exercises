@@ -4,3 +4,7 @@ class Car:
         self.__make = make
         self.__speed = 0
         self.__fuel = 100.0
+
+    # GETTERS
+    def get_year_model(self) -> int:
+        return self.__year_model
