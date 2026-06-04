@@ -23,3 +23,6 @@ class Fan:
 
     def get_chassis_colors(self):
         return self.__chassis_colors
+
+    def get_is_powered_on(self):
+        return self.__is_powered_on
