@@ -26,3 +26,6 @@ class Fan:
 
     def get_is_powered_on(self):
         return self.__is_powered_on
+
+    def get_target_temperature(self):
+        return self.__target_temperature
