@@ -45,3 +45,7 @@ class Fan:
 
     # DASHBOARD DISPLAY
     def device_summary(self, device_label):
+        print(f"\n [{device_label.upper()}]")
+        print(f"  Power Status  : {'ON' if self.__is_powered_on else 'OFF' }")
+        print(f"  Speed Setting  : Level {self.__rotation_speed}")
+        print(f"  Specifications  : Size {self.__blade_radius} inches | Finish: {self.__chassis_colors.title()}")
