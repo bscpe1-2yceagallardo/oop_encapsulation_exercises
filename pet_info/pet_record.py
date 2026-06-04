@@ -26,3 +26,9 @@ class Pet:
 
     def set_gender(self, gender):
         self.__gender = gender
+
+    def set_vaccinatedr(self, status):
+        if status.lower() in ['yes', 'y', 'complete']:
+            self.__vaccinated = "Complete"
+        else:
+            self.__vaccinated = "Not Complete"
