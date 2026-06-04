@@ -23,3 +23,7 @@ def main():
             break
         except ValueError:
             print("Invalid Input. Please enter numeric year.")
+
+    make = input("Enter Car Make/Model (ex: Tesla, Ford):").strip()
+    if not make:
+        make = "Generic Vehicle"
