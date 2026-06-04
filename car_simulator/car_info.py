@@ -36,3 +36,11 @@ class Car:
             return "2nd"
         else:
             return "3rd"
+
+    def get_efficiency(self) -> str:
+        if self.__speed == 0:
+            return "0.0 MPG (Idling)"
+        elif self.__speed > 20:
+            return "18.5 MPG (Heavy Load)"
+        else:
+            return "32.0 MPG (Eco Cruising)"
