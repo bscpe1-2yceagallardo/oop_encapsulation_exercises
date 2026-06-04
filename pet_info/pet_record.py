@@ -7,3 +7,7 @@ class Pet:
         self.__color = ""
         self.__gender = ""
         self.__vaccinated = ""
+
+    # SETTERS
+    def set_name(self, name):
+        self.__name = name
