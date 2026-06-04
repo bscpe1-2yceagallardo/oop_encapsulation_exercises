@@ -44,3 +44,6 @@ class Car:
             return "18.5 MPG (Heavy Load)"
         else:
             return "32.0 MPG (Eco Cruising)"
+
+    def __str__(self) -> str:
+        return f"{self.__year_model} {self.__make}"
