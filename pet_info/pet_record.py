@@ -23,3 +23,6 @@ class Pet:
 
     def set_color(self, color):
         self.__color = color
+
+    def set_gender(self, gender):
+        self.__gender = gender
