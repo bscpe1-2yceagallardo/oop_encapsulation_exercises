@@ -6,3 +6,6 @@ def main():
     fan_one.set_is_oscillating(True)
     fan_one.set_active_timer_minutes(60)
     fan_one.device_summary("FAN 1")
+
+    fan_two = Fan(Fan.SPEED_MEDIUM,5, "blue", False)
+    fan_one.device_summary("FAN 2")
