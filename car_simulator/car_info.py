@@ -17,3 +17,8 @@ class Car:
 
     def get_fuel(self) -> float:
         return round(self.__fuel, 1)
+
+    # MUTATORS
+    def accelerates(self):
+        self.__speed =+ 5
+        self.__fuel =  max(0.0, self.__fuel - 1.5)
