@@ -11,3 +11,6 @@ class Car:
 
     def get_make(self) -> str:
         return self.__make
+
+    def get_speed(self) -> int:
+        return self.__speed
