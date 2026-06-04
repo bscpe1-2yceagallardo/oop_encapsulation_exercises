@@ -34,5 +34,8 @@ class Pet:
             self.__vaccinated = "Not Complete"
 
     # GETTERS
-    def set_name(self, name):
+    def set_name(self):
         return self.__name
+
+    def set_animal_type(self):
+        return self.__animal_type
