@@ -27,3 +27,7 @@ def main():
     make = input("Enter Car Make/Model (ex: Tesla, Ford):").strip()
     if not make:
         make = "Generic Vehicle"
+
+    my_car = Car(year, make)
+    print(f"\nSuccessfully spwaned your {my_car}!")
+    timne.sleep(1)
