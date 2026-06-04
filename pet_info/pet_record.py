@@ -20,3 +20,6 @@ class Pet:
 
     def set_breed(self, breed):
         self.__breed = breed
+
+    def set_color(self, color):
+        self.__color = color
