@@ -46,4 +46,4 @@ class Car:
             return "32.0 MPG (Eco Cruising)"
 
     def __str__(self) -> str:
-        return f"{self.__year_model} {self.__make}"
+        return f"[{self.__year_model} {self.__make}]"
