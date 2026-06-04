@@ -27,7 +27,7 @@ class Pet:
     def set_gender(self, gender):
         self.__gender = gender
 
-    def set_vaccinatedr(self, status):
+    def set_vaccinated(self, status):
         if status.lower() in ['yes', 'y', 'complete']:
             self.__vaccinated = "Complete"
         else:
@@ -48,3 +48,6 @@ class Pet:
 
     def set_color(self):
         return self.__color
+
+    def set_gender(self):
+        return self.__gender
