@@ -11,10 +11,10 @@ def display_dashboard(car: Car, action: str):
     print("\n" + "=" * 40)
     print(f"  Fuel Level  : {car.get_fuel()}%")
     print(f"  Eco Rating  : {car.get_efficiency()}")
-    print("\n" + "=" * 40)
+    print("\n" + "-" * 40)
 
 def main():
-    print("--- CAR SIMULATOR ---")
+    print("------------- CAR SIMULATOR --------------")
 
     while True:
         try:
@@ -26,7 +26,7 @@ def main():
         except ValueError:
             print("Invalid Input. Please enter numeric year.")
 
-    make = input("Enter Car Make/Model (ex: Tesla, Ford):").strip()
+    make = input("Enter Car Make/Model (ex: Tesla, Ford): ").strip()
     if not make:
         make = "Generic Vehicle"
 
