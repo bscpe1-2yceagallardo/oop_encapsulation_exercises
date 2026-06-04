@@ -51,3 +51,6 @@ class Pet:
 
     def set_gender(self):
         return self.__gender
+
+    def set_vaccinated(self):
+        return self.__vaccinated
