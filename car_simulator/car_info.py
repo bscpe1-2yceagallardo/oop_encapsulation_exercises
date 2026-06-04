@@ -22,3 +22,7 @@ class Car:
     def accelerates(self):
         self.__speed =+ 5
         self.__fuel =  max(0.0, self.__fuel - 1.5)
+
+    def brake(self):
+        self.__speed = max(0,self.__speed - 5 )
+        self.__fuel =  max(0.0, self.__fuel - 0.2)
