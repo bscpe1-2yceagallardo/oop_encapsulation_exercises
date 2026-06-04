@@ -1,0 +1,5 @@
+class Fan:
+    SPEED_SLOW = 1
+    SPEED_MEDIUM = 2
+    SPEED_FAST = 3
+    SPEED_VERY_FAST = 4
