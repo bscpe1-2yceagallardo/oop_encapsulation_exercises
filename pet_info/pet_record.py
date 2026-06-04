@@ -34,23 +34,23 @@ class Pet:
             self.__vaccinated = "Not Complete"
 
     # GETTERS
-    def set_name(self):
+    def get_name(self):
         return self.__name
 
-    def set_animal_type(self):
+    def get_animal_type(self):
         return self.__animal_type
 
-    def set_age(self):
+    def get_age(self):
         return self.__age
 
-    def set_breed(self):
+    def get_breed(self):
         return self.__breed
 
-    def set_color(self):
+    def get_color(self):
         return self.__color
 
-    def set_gender(self):
+    def get_gender(self):
         return self.__gender
 
-    def set_vaccinated(self):
+    def get_vaccinated(self):
         return self.__vaccinated
