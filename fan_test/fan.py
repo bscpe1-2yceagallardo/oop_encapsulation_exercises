@@ -49,3 +49,10 @@ class Fan:
         print(f"  Power Status  : {'ON' if self.__is_powered_on else 'OFF' }")
         print(f"  Speed Setting  : Level {self.__rotation_speed}")
         print(f"  Specifications  : Size {self.__blade_radius} inches | Finish: {self.__chassis_colors.title()}")
+
+        if self.__is_powered_on:
+            print(f"  Climate Mode  : Target Temperature {self.__target_temperature}°C")
+            print(f"  Oscillation  : {'Active' if self.__is_oscillating else 'Fixed Position'}")
+            print(f"  Shutdown Timer  : {self.__active_timer_minutes} minutes remaining")
+            print(f"  Cooling Matrix  : {self.calculate_cooling_output()}")
+        print("-" * 50)
