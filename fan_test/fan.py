@@ -38,4 +38,7 @@ class Fan:
 
     # FEATURES
     def calculate_cooling_output(self):
-    
+        if not self.__is_powered_on:
+            return "0 kW (Device Offline)"
+        thermal_dispersal = self.__rotation_speed * self.__blade_radius * 0.5
+        return f"{thermal_dispersal} kW Wind Chill"
