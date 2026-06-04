@@ -32,3 +32,6 @@ class Fan:
 
     def get_is_oscillating(self):
         return self.__is_oscillating
+
+    def get_active_timer_minutes(self):
+        return self.__active_timer_minutes
