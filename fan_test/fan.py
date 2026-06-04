@@ -42,3 +42,6 @@ class Fan:
             return "0 kW (Device Offline)"
         thermal_dispersal = self.__rotation_speed * self.__blade_radius * 0.5
         return f"{thermal_dispersal} kW Wind Chill"
+
+    # DASHBOARD DISPLAY
+    def device_summary(self, device_label):
