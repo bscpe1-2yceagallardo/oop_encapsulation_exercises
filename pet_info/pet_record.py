@@ -39,3 +39,6 @@ class Pet:
 
     def set_animal_type(self):
         return self.__animal_type
+
+    def set_age(self):
+        return self.__age
