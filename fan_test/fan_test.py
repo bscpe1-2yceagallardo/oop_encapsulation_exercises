@@ -9,3 +9,6 @@ def main():
 
     fan_two = Fan(Fan.SPEED_MEDIUM,5, "blue", False)
     fan_one.device_summary("FAN 2")
+
+if __name__ == "__main__":
+    main()
