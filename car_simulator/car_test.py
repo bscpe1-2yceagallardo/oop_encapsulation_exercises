@@ -41,3 +41,14 @@ def main():
         display_dashboard(my_car, "Accelerating")
 
     time.sleep(1.5)
+
+    print("\nSLAMMING THE BRAKES...")
+    for i in range(5):
+        time.sleep(0.5)
+        my_car.brake()
+        display_dashboard(my_car, "Braking")
+
+    print("\nSimulation complete. Vehicle safely parked.")
+
+if __name__ == "__main__":
+    main()
