@@ -14,3 +14,6 @@ class Car:
 
     def get_speed(self) -> int:
         return self.__speed
+
+    def get_fuel(self) -> float:
+        return round(self.__fuel, 1)
