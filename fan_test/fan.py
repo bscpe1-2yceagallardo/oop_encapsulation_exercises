@@ -36,6 +36,28 @@ class Fan:
     def get_active_timer_minutes(self):
         return self.__active_timer_minutes
 
+    # SETTERS
+    def set_rotation_speed(self, rotation_speed):
+        return self.__rotation_speed
+
+    def set_blade_radius(self, blade_radius):
+        return self.__blade_radius
+
+    def set_chassis_colors(self, chassis_colors):
+        return self.__chassis_colors
+
+    def set_is_powered_on(self, is_powered_on):
+        return self.__is_powered_on
+
+    def set_target_temperature(self, target_temperature):
+        return self.__target_temperature
+
+    def set_is_oscillating(self, is_oscillating):
+        return self.__is_oscillating
+
+    def set_active_timer_minutes(self, active_timer_minutes):
+        return self.__active_timer_minutes
+
     # FEATURES
     def calculate_cooling_output(self):
         if not self.__is_powered_on:
