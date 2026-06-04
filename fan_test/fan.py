@@ -35,3 +35,7 @@ class Fan:
 
     def get_active_timer_minutes(self):
         return self.__active_timer_minutes
+
+    # FEATURES
+    def calculate_cooling_output(self):
+    
